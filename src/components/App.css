@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Josefin+Sans:wght@600&family=Kanit&family=Montserrat:wght@300&family=Rubik&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #8ec5fc;
+  background-image: url("./peter-bucks-e6DtQuxGYNE-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+  font-family: "rubik";
+  color: #004044;
+  /* text-transform: uppercase; */
+}
+
+h4 {
+  padding-bottom: 2%;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-container {
+  width: 30%;
+  height: 70vh;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(255, 255, 255, 0.494);
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+input,
+select {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #cccccc;
+  background-color: transparent;
+  /* color: #000000; */
+  border-style: solid;
+  border-radius: 9px;
+  box-shadow: 0px 0px 13px rgba(66, 66, 66, 0.18);
+}
+input:focus {
+  outline: none;
+}
+
+.btn {
+  background: #ebebeb50;
+  background-image: -webkit-linear-gradient(top, #ebebeb50, #d6d6d650);
+  background-image: -moz-linear-gradient(top, #ebebeb50, #d6d6d650);
+  background-image: -ms-linear-gradient(top, #ebebeb50, #d6d6d650);
+  background-image: -o-linear-gradient(top, #ebebeb50, #d6d6d650);
+  background-image: linear-gradient(to bottom, #ebebeb50, #d6d6d650);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  /* color: #360136; */
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff50 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #c9c9c950;
+  background-image: -webkit-linear-gradient(top, #c9c9c950, #b5b5b550);
+  background-image: -moz-linear-gradient(top, #c9c9c950, #b5b5b550);
+  background-image: -ms-linear-gradient(top, #c9c9c950, #b5b5b550);
+  background-image: -o-linear-gradient(top, #c9c9c950, #b5b5b550);
+  background-image: linear-gradient(to bottom, #c9c9c950, #b5b5b550);
+  text-decoration: none;
+}
